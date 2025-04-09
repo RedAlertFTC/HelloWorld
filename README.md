@@ -30,6 +30,12 @@ Run the following command in the terminal to build the application:
 ./gradlew build
 ```
 
+##### 1.1.1 Setup Proxy if working from the University Lab (Optional)
+This step is necessary only if you are doing the exercise from the University computers or 
+if the computer you are using is connected to the University network. 
+
+Please edit the `gradle.properties` file and add the required proxy and port that will be provided by the teaching assistant!
+
 #### 1.2 Run the application
 We can run the application by running the `org.example.Main` class:
 
@@ -260,7 +266,7 @@ jar {
 }
 ```
 
-Instead of defining a local variable, we could also define the `mainClassName` variable in a `gradle.properties` file,
+Instead of defining a local variable, we could also define the `mainClassName` variable in the `gradle.properties` file,
 located in the project's root folder:
 
 ```properties
