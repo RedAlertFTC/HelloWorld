@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="HelloWorld" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="jbr-21" />
+    <option name="MAIN_CLASS_NAME" value="HelloWorld" />
+    <module name="HelloWorld.main" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
